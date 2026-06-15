@@ -70,5 +70,10 @@ Our goal is to build a system that **does not just exist, but responds instantly
 
 ---
 
+## Images
+HOME PAGE = <img width="1872" height="896" alt="Screenshot 2026-06-15 214854" src="https://github.com/user-attachments/assets/aea61c7f-3245-4ee0-bdf8-acd4bcbd615b" />
+SOS PAGE = <img width="670" height="532" alt="Screenshot 2026-06-15 214904" src="https://github.com/user-attachments/assets/6ad660de-4ea5-4df0-adff-6cca63a6c94c" />
+
+
 ## 👥 Team
 By • Manojna Addepalli • Prashamsa • P.V Asritha • Varshitha aratipamula
