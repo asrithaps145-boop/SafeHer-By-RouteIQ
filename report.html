@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Incident</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="features">
+
+    <h2>Report Incident</h2>
+
+    <form id="reportForm" class="report-form">
+
+        <input type="text"
+               placeholder="Your Name"
+               required>
+
+        <input type="text"
+               placeholder="Location"
+               required>
+
+        <textarea
+            placeholder="Describe Incident"
+            rows="6"></textarea>
+
+        <button class="primary-btn">
+            Submit Report
+        </button>
+
+    </form>
+
+</section>
+
+<script>
+
+document.getElementById("reportForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("✅ Incident Report Submitted");
+
+});
+
+</script>
+<a href="index.html" class="back-btn">
+    ← Back to Home
+</a>
+
+</body>
+</html>

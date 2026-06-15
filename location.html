@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="features">
+
+    <h2>Live Location</h2>
+
+    <button class="primary-btn"
+            onclick="getLocation()">
+        Get My Location
+    </button>
+
+    <br><br>
+
+    <p id="locationText"></p>
+
+</section>
+
+<script>
+
+function getLocation(){
+
+if(navigator.geolocation){
+
+navigator.geolocation.getCurrentPosition(function(position){
+
+document.getElementById("locationText").innerHTML=
+"Latitude: "+
+position.coords.latitude+
+"<br>Longitude: "+
+position.coords.longitude;
+
+});
+
+}
+
+}
+
+</script>
+<a href="index.html" class="back-btn">
+    ← Back to Home
+</a>
+
+</body>
+</html>

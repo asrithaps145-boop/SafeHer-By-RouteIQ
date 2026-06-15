@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeHer Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            background:linear-gradient(135deg,#f4e8ff,#e8d5ff);
+        }
+
+        .login-container{
+            width:400px;
+            background:rgba(255,255,255,0.6);
+            backdrop-filter:blur(12px);
+            border-radius:25px;
+            padding:40px;
+            box-shadow:0 8px 30px rgba(0,0,0,0.1);
+        }
+
+        .login-container h1{
+            text-align:center;
+            color:#7b2cbf;
+            margin-bottom:10px;
+        }
+
+        .login-container p{
+            text-align:center;
+            color:#666;
+            margin-bottom:30px;
+        }
+
+        .login-container input{
+            width:100%;
+            padding:15px;
+            margin-bottom:15px;
+            border:none;
+            border-radius:12px;
+            box-shadow:0 3px 10px rgba(0,0,0,.08);
+            outline:none;
+        }
+
+        .login-btn-main{
+            width:100%;
+            padding:15px;
+            border:none;
+            border-radius:12px;
+            background:#8e44ec;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+            transition:.3s;
+        }
+
+        .login-btn-main:hover{
+            transform:translateY(-3px);
+        }
+
+        .back-home{
+            display:block;
+            text-align:center;
+            margin-top:20px;
+            text-decoration:none;
+            color:#7b2cbf;
+            font-weight:600;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <h1>🛡️ SafeHer</h1>
+
+    <p>Sign in to access your safety dashboard</p>
+
+    <form id="loginForm">
+
+        <input
+            type="email"
+            placeholder="Email Address"
+            required>
+
+        <input
+            type="password"
+            placeholder="Password"
+            required>
+
+        <button
+            type="submit"
+            class="login-btn-main">
+            Login
+        </button>
+
+    </form>
+
+    <a href="index.html" class="back-home">
+        ← Back to Home
+    </a>
+
+</div>
+
+<script>
+
+document.getElementById("loginForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    alert("✅ Login Successful");
+
+    window.location.href = "dashboard.html";
+
+});
+
+</script>
+
+
+</body>
+</html>
