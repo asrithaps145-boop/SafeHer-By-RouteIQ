@@ -93,7 +93,7 @@ By combining technology, accessibility, and safety-focused design, SafeHer striv
 
 ## 👨‍💻 Team
 
-### Synergy Sykers
+### Synergy Seekers
 
 Built with a vision to leverage technology for social impact and women's safety.
 
@@ -101,24 +101,21 @@ Built with a vision to leverage technology for social impact and women's safety.
 
 ## 🚀 Live Demo
 
-Add your Netlify link here.
+https://safeher23.netlify.app/
 
 ---
 
-## 📂 GitHub Repository
+## 📹 Video Link
 
-Add your GitHub repository link here.
+https://drive.google.com/file/d/1bkVeN_PrmzgkOKo5Zqrbj5YRe80EfBfx/view?usp=drivesdk
 
 ---
 
-## Video Link
+## 📃 Presentation Link
 
+https://drive.google.com/file/d/1lyMVhjMZw189j2am_x6g1oDCEaukS46u/view?usp=sharing
 
-
-## Presentation Link
-
-
-
+---
 
 ## ❤️ Tagline
 
